@@ -1,0 +1,4 @@
+<ul class="list-none py-2" *ngIf="subtitlesText || questionText">
+  <li *ngIf="questionText" class="bg-gray-400 text-gray-900 rounded p-2 text-xs m-1">{{ questionText }}</li>
+  <li *ngIf="subtitlesText" class="bg-white text-gray-700 rounded p-2 text-xs m-1">{{ subtitlesText }}</li>
+</ul>
