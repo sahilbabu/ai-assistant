@@ -49,6 +49,9 @@ export class HumanAssistantComponent implements OnInit, OnDestroy {
       this.isVisible = pos > 200; //  Show dialog when user scrolls past 100px
       this.scrollService.setVideoDialogVisibility(this.isVisible);
     });
+
+    console.log("ngOnInit => HumanAssistantComponent",)
+    //this.changeSource("")
   }
 
   ngOnDestroy(): void {
@@ -61,7 +64,7 @@ export class HumanAssistantComponent implements OnInit, OnDestroy {
     if (this.inputText) {
       this.aiService.getAiResponse(this.inputText).subscribe({
         next: (response) => {
-          // Assuming response contains fields 'videoUrl' and 'subtitles'
+          // Assuming response contains  values 'videoUrl' and 'subtitles'
           this.videoSource = response.videoUrl;
           this.subtitlesText = response.subtitles;
           this.questionText = response.question;

@@ -24,8 +24,6 @@ export class StreamingService {
     const mockVideoUrls = [
       "https://assets-global.website-files.com/63a5141427f9360ebfaf9e6e/65c591c59dba3c9577cdec09_64264a8a9df8da0121b4ddbb_Untitled (5)-transcode.mp4",
       "https://assets-global.website-files.com/63a5141427f9360ebfaf9e6e/64264aa18e47366d93d89d62_Untitled (6)-transcode.mp4",
-      "https://assets-global.website-files.com/63a5141427f9360ebfaf9e6e/64264aafdf43660d1efa0c72_Untitled (7)-transcode.mp4",
-      "https://assets-global.website-files.com/63a5141427f9360ebfaf9e6e/65c591c59dba3c9577cdec09_64264a8a9df8da0121b4ddbb_Untitled (5)-transcode.mp4",
     ];
 
     // Randomly select a subtitle and video URL

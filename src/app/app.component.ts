@@ -14,8 +14,6 @@ import {VideoDisplayComponent} from "./shared/components/video-display/video-dis
 import {SubtitleComponent} from "./shared/components/subtitle/subtitle.component";
 import {HumanAssistantComponent} from "./shared/components/human-assistant/human-assistant.component";
 
-
-
 @Component({
   selector: 'app-root',
   standalone: true,

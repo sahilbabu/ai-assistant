@@ -1,5 +1,5 @@
 <section id="video-dock-wrapper" *ngIf="!hideVideoDockWrapper"
-         class="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
+         class="relative h-[calc(100vh-150px)] flex flex-col items-center justify-center text-center text-white py-0 px-3">
   <div class="video-docker absolute top-0 left-0 w-full h-full max-h-full overflow-hidden">
     <!-- Placeholder for video display -->
     <app-video-display *ngIf="videoSource" [videoSource]="videoSource" [videoType]="videoTypeTop"></app-video-display>
